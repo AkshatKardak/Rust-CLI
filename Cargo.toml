@@ -1,0 +1,14 @@
+[package]
+name = "rust-cli-project"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15.0"
+hyper = { version = "0.14", features = ["full"] }
+hyper-tls = "0.5"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+spinners = "2.0"
+tokio = { version = "1.0", features = ["full"] }
