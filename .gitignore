@@ -1,13 +1,13 @@
 
-# Rust build artifacts
+# Rust build output
 /target/
 
-# Environment variables and API keys
+# Secrets and local environment
 .env
 .env.*
 !.env.example
 
-# IDE and editor files
+# Editor configuration
 .vscode/
 .idea/
 
@@ -16,9 +16,7 @@
 Thumbs.db
 desktop.ini
 
-# Logs
+# Logs and temporary files
 *.log
-
-# Temporary files
 *.tmp
 *.bak
