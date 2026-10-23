@@ -85,8 +85,8 @@ impl GeminiClient {
         let request_body = json!({
             "contents": contents,
             "generationConfig": {
-                "temperature": 0.7,
-                "maxOutputTokens": 2048
+                "temperature": 0.4,
+                "maxOutputTokens": 8192
             }
         });
 
